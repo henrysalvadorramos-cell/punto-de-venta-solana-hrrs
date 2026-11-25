@@ -17,7 +17,7 @@ Comprueba el rechazo de monto cero, que la venta conserve su monto anterior y qu
 solo se permita cerrar el cliente después de devolver la venta.
 Estado: programa desplegado en Devnet el 25 de noviembre de 2026.
 La prueba de Playground terminó con 1 passing y todas las comprobaciones exitosas.
-El frontend compiló y pasó sus 9 pruebas locales. La demostración firmada desde el frontend está pendiente de verificación.
+El frontend compiló y pasó sus 9 pruebas locales. La demostración en Devnet se realizó firmando desde Solana Playground y consultando los datos desde el frontend. La firma directamente desde el navegador queda pendiente de una wallet de práctica compatible.
 
 ## Evidencias
 
@@ -25,8 +25,22 @@ El frontend compiló y pasó sus 9 pruebas locales. La demostración firmada des
 - [Captura de despliegue exitoso](./images/evidencia-despliegue.png).
 - [Captura de la prueba Devnet con las firmas completas](./images/evidencia-prueba-devnet.png).
 - [Captura del frontend local con la nueva operación](./images/evidencia-frontend.png).
+- [Venta de demostración registrada en Devnet](./images/evidencia-venta-devnet.png).
+- [Transacción de la venta de demostración — finalizada en Devnet](https://explorer.solana.com/tx/2VtHt5uX8HFuKbzteRGC6xFZymLjcCSyCETSoiXZJKNCrTPomGnrJgpzkUMmZnGQ4vvuqYj5TsMgJyErpxKgKc2V?cluster=devnet).
+- [Consulta de la venta real desde el frontend](./images/evidencia-consulta-devnet.png).
 
 ![Resultado de las pruebas Devnet](./images/evidencia-prueba-devnet.png)
+
+### Reproducir la consulta de la demostración
+
+1. Ejecutar `npm install` si la versión local de npm requiere actualizar el lockfile; a continuación `npm run verificar` y `npm run dev`.
+2. Abrir la sección Registro de ventas en `http://localhost:5173/`.
+3. Introducir el nombre exacto `Tienda HRRS 1795640253485` y la autoridad pública `4jtz7L5wWGBzcQJHf8vF7eU8eQRqLAq1tk5TvFTQXAdx`.
+4. Pulsar Consultar registro. Se observa el cliente de prueba con una venta activa de Cuaderno, SKU A01, importe 150 unidades.
+
+Para crear otra demostración, copiar `programa/client/demo.ts` en `client/client.ts` de Solana Playground y ejecutar Run con una wallet de práctica en Devnet.
+
+![Consulta en el frontend](./images/evidencia-consulta-devnet.png)
 
 ## Material original del bootcamp
 
