@@ -17,7 +17,7 @@ Comprueba el rechazo de monto cero, que la venta conserve su monto anterior y qu
 solo se permita cerrar el cliente después de devolver la venta.
 Estado: programa desplegado en Devnet el 25 de noviembre de 2026.
 La prueba de Playground terminó con 1 passing y todas las comprobaciones exitosas.
-El frontend compiló y pasó sus 9 pruebas locales. La demostración en Devnet se realizó firmando desde Solana Playground y consultando los datos desde el frontend. La firma directamente desde el navegador queda pendiente de una wallet de práctica compatible.
+El frontend compiló y pasó sus 11 pruebas locales. La demostración en Devnet se realizó firmando desde Solana Playground y consultando los datos desde el frontend. También se creó el registro Cafe WayLearn D1 directamente desde el frontend con una cuenta temporal de práctica. La transacción quedó finalizada sin errores.
 
 ## Evidencias
 
@@ -28,6 +28,8 @@ El frontend compiló y pasó sus 9 pruebas locales. La demostración en Devnet s
 - [Venta de demostración registrada en Devnet](./images/evidencia-venta-devnet.png).
 - [Transacción de la venta de demostración — finalizada en Devnet](https://explorer.solana.com/tx/2VtHt5uX8HFuKbzteRGC6xFZymLjcCSyCETSoiXZJKNCrTPomGnrJgpzkUMmZnGQ4vvuqYj5TsMgJyErpxKgKc2V?cluster=devnet).
 - [Consulta de la venta real desde el frontend](./images/evidencia-consulta-devnet.png).
+- [Captura de creación de registro confirmada desde el frontend](./images/evidencia-firma-frontend.png).
+- [Transacción CrearRegistro desde el frontend — finalizada en Devnet](https://explorer.solana.com/tx/3RXfJyN9ib2joRFe5Bgp5en5F8M1Wjqs8rq8jr7552vMxauMgkgQ6VHXEk7nr9wRJdWphAoqYVPeYz5c4DfLvSHq?cluster=devnet).
 
 ![Resultado de las pruebas Devnet](./images/evidencia-prueba-devnet.png)
 
