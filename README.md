@@ -17,7 +17,7 @@ Comprueba el rechazo de monto cero, que la venta conserve su monto anterior y qu
 solo se permita cerrar el cliente después de devolver la venta.
 Estado: programa desplegado en Devnet el 25 de noviembre de 2026.
 La prueba de Playground terminó con 1 passing y todas las comprobaciones exitosas.
-El frontend compiló y pasó sus 11 pruebas locales. La demostración en Devnet se realizó firmando desde Solana Playground y consultando los datos desde el frontend. También se creó el registro Cafe WayLearn D1 directamente desde el frontend con una cuenta temporal de práctica. La transacción quedó finalizada sin errores.
+El frontend compiló y pasó sus 11 pruebas locales. La demostración en Devnet se realizó firmando desde Solana Playground y consultando los datos desde el frontend. También se creó el registro Cafe WayLearn D1 directamente desde el frontend con una cuenta temporal de práctica, se dio de alta al cliente Henry (ID 1) y se registró una venta de Cuaderno (SKU A01, 150 unidades). Las tres transacciones quedaron finalizadas sin errores.
 
 ## Evidencias
 
@@ -30,6 +30,10 @@ El frontend compiló y pasó sus 11 pruebas locales. La demostración en Devnet 
 - [Consulta de la venta real desde el frontend](./images/evidencia-consulta-devnet.png).
 - [Captura de creación de registro confirmada desde el frontend](./images/evidencia-firma-frontend.png).
 - [Transacción CrearRegistro desde el frontend — finalizada en Devnet](https://explorer.solana.com/tx/3RXfJyN9ib2joRFe5Bgp5en5F8M1Wjqs8rq8jr7552vMxauMgkgQ6VHXEk7nr9wRJdWphAoqYVPeYz5c4DfLvSHq?cluster=devnet).
+- [Transacción CrearCliente desde el frontend — finalizada en Devnet](https://explorer.solana.com/tx/2ZVUtZLHNELhk9EMC7JC9zhV9XHuVG9Nb5r9VEyoJ31zuhAJ2i2wnpWjXRkCrjdcNWYRqapDWsQQeFWG8xd4h84p?cluster=devnet).
+- [Transacción RegistrarVenta desde el frontend — finalizada en Devnet](https://explorer.solana.com/tx/DAZPdK3eLFPTC3CQijit2grfqoABwxA53apktKSfU6Eojwf5uTZDaVpPKzVZjJ2vx1NCLPVy1GRZtUmmkuqXpoF?cluster=devnet).
+
+![Venta confirmada desde el frontend](./images/evidencia-venta-frontend.png)
 
 ![Resultado de las pruebas Devnet](./images/evidencia-prueba-devnet.png)
 
