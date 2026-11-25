@@ -42,6 +42,14 @@ Para crear otra demostración, copiar `programa/client/demo.ts` en `client/clien
 
 ![Consulta en el frontend](./images/evidencia-consulta-devnet.png)
 
+### Demostración con cuenta temporal de Devnet
+
+Para comprobar la firma desde el navegador sin instalar una extensión, inicia el servidor local con `npm run dev` y abre `http://localhost:5173/?modo=prueba`. Selecciona «Práctica Devnet (temporal)» en Conectar wallet. Esta cuenta de desarrollo se crea en memoria y solo puede firmar instrucciones del programa configurado en Devnet. Cada operación necesita confirmación explícita. No se exportan ni importan claves y no se utiliza dinero real.
+
+En Conexión se muestra la dirección pública temporal. Utiliza únicamente saldo de prueba de Devnet. Mantén abierta la pestaña hasta completar la demostración, ya que la cuenta se pierde al desconectarla o recargar.
+
+Esta revisión pasó 11 pruebas locales, incluidas dos verificaciones de la cuenta temporal: desconexión y rechazo de programas o redes ajenos.
+
 ## Material original del bootcamp
 
 ![Registro de Ventas · App — Solana, TypeScript y React](./images/banner-app.png)
