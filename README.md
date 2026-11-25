@@ -86,10 +86,10 @@ Abre la aplicación en una pestaña normal del navegador donde tienes instalada 
 Si prefieres trabajar en local, utiliza **Node.js 22.12 o superior de la rama 22** y npm. Clona tu fork o utiliza directamente el repositorio original:
 
 ```bash
-git clone https://github.com/WayLearnLatam/Registro-Ventas-Solana-App.git
-cd Registro-Ventas-Solana-App
+git clone https://github.com/henrysalvadorramos-cell/punto-de-venta-solana-hrrs.git
+cd punto-de-venta-solana-hrrs
 npm ci
-npm run cliente
+npm run verificar
 npm run dev
 ```
 
