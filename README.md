@@ -15,7 +15,18 @@ Prueba de programa: tras desplegar el programa en Devnet, ejecuta
 `programa/tests/ventas.test.ts` en Solana Playground con la wallet de prueba.
 Comprueba el rechazo de monto cero, que la venta conserve su monto anterior y que
 solo se permita cerrar el cliente después de devolver la venta.
-Estado: verificación local del frontend completada. Despliegue y pruebas en Devnet pendientes.
+Estado: programa desplegado en Devnet el 25 de noviembre de 2026.
+La prueba de Playground terminó con 1 passing y todas las comprobaciones exitosas.
+El frontend compiló y pasó sus 9 pruebas locales. La demostración firmada desde el frontend está pendiente de verificación.
+
+## Evidencias
+
+- [Program ID en Solana Explorer](https://explorer.solana.com/address/E1yJAnrTuYNoxSc6x4s8VA8UmhbTbu4xDJR1TjYApz9V?cluster=devnet).
+- [Captura de despliegue exitoso](./images/evidencia-despliegue.png).
+- [Captura de la prueba Devnet con las firmas completas](./images/evidencia-prueba-devnet.png).
+- [Captura del frontend local con la nueva operación](./images/evidencia-frontend.png).
+
+![Resultado de las pruebas Devnet](./images/evidencia-prueba-devnet.png)
 
 ## Material original del bootcamp
 
